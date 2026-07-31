@@ -80,7 +80,7 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 
 Covers the essential first step of any ML pipeline: turning messy, real-world data into a clean dataset ready for analysis.
 
-- [ ] **Missing Values** — Techniques to detect and handle null/missing entries (mean/median/mode imputation, dropping, interpolation).
+- [x] **Missing Values** — Techniques to detect and handle null/missing entries (mean/median/mode imputation, dropping, interpolation).
 - [ ] **Duplicate Data** — Identifying and removing duplicate records to avoid data leakage and bias.
 - [ ] **Handling Outliers** — Detecting anomalies using IQR, Z-score, and visual methods, and deciding how to treat them.
 - [ ] **Encoding Categorical Data** — Converting categorical variables using One-Hot, Label, and Ordinal encoding.
