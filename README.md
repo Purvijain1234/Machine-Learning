@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 </div>
@@ -22,19 +21,11 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 
 ---
 
-## 🗺️ Roadmap
-
-<div align="center">
-<img src="assets/roadmap.png" alt="Learning Roadmap" width="80%">
-</div>
-
----
-
 ## ✅ Learning Progress Tracker
 
 > Check items off as you complete them — GitHub renders these as clickable checkboxes!
 
-- [x] 01. Data Preprocessing
+- [ ] 01. Data Preprocessing
 - [ ] 02. Feature Engineering
 - [ ] 03. Statistics for ML
 - [ ] 04. Probability for ML
@@ -218,7 +209,7 @@ Core linear algebra concepts that power everything from neural networks to PCA.
 Algorithms that learn a mapping from inputs to known outputs — the most common type of ML.
 
 ### 📈 Regression
-- [ ] Linear Regression
+- [x] Linear Regression
 - [ ] Polynomial Regression
 - [ ] Ridge Regression
 - [ ] Lasso Regression
@@ -232,7 +223,7 @@ Algorithms that learn a mapping from inputs to known outputs — the most common
 - [ ] XGBoost
 
 ### 🏷️ Classification
-- [ ] Logistic Regression
+- [x] Logistic Regression
 - [ ] KNN
 - [ ] Naive Bayes
 - [ ] Decision Tree
