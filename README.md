@@ -29,7 +29,7 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 - [ ] 02. Feature Engineering
 - [ ] 03. Statistics for ML
 - [ ] 04. Probability for ML
-- [ ] 05. Linear Algebra for ML
+- [x] 05. Linear Algebra for ML
 - [ ] 06. Supervised Learning
 - [ ] 07. Unsupervised Learning
 - [ ] 08. Model Evaluation
@@ -177,21 +177,21 @@ Probability theory that powers Naive Bayes, generative models, and uncertainty e
 
 Core linear algebra concepts that power everything from neural networks to PCA.
 
-- [ ] **Scalars** — Single numerical values.
-- [ ] **Vectors** — Ordered arrays representing data points.
-- [ ] **Matrices** — 2D data structures for transformations.
-- [ ] **Matrix Multiplication** — Combining matrices for transformations.
-- [ ] **Dot Product** — Measuring vector similarity/projection.
-- [ ] **Cross Product** — Vector operations in 3D space.
-- [ ] **Transpose** — Flipping rows and columns.
-- [ ] **Determinant** — Scaling factor of a transformation.
-- [ ] **Rank** — Number of independent dimensions.
-- [ ] **Inverse** — Reversing a matrix transformation.
-- [ ] **Eigenvalues** — Scalars indicating transformation stretch.
-- [ ] **Eigenvectors** — Directions unchanged by a transformation.
-- [ ] **Norms** — Measuring vector magnitude/length.
-- [ ] **Orthogonality** — Perpendicularity between vectors.
-- [ ] **Singular Value Decomposition** — Factorizing matrices for dimensionality reduction.
+- [x] **Scalars** — Single numerical values.
+- [x] **Vectors** — Ordered arrays representing data points.
+- [x] **Matrices** — 2D data structures for transformations.
+- [x] **Matrix Multiplication** — Combining matrices for transformations.
+- [x] **Dot Product** — Measuring vector similarity/projection.
+- [x] **Cross Product** — Vector operations in 3D space.
+- [x] **Transpose** — Flipping rows and columns.
+- [x] **Determinant** — Scaling factor of a transformation.
+- [x] **Rank** — Number of independent dimensions.
+- [x] **Inverse** — Reversing a matrix transformation.
+- [x] **Eigenvalues** — Scalars indicating transformation stretch.
+- [x] **Eigenvectors** — Directions unchanged by a transformation.
+- [x] **Norms** — Measuring vector magnitude/length.
+- [x] **Orthogonality** — Perpendicularity between vectors.
+- [x] **Singular Value Decomposition** — Factorizing matrices for dimensionality reduction.
 
 📂 `05_Linear_Algebra_for_ML/`
 
