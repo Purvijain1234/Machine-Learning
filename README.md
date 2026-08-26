@@ -15,7 +15,7 @@
 
 ## 📌 About This Repository
 
-This repository is my personal **Machine Learning knowledge base** — a growing collection of notebooks, notes, and mini-projects covering everything from **data preprocessing** to **full end-to-end ML pipelines**. Each topic includes a Jupyter notebook, a visual explanation (`.png`), and a short `README.md` explaining the concept.
+This repository is my personal **Machine Learning knowledge base** - a growing collection of notebooks, notes, and mini-projects covering everything from **data preprocessing** to **full end-to-end ML pipelines**. Each topic includes a Jupyter notebook, a visual explanation (`.png`), and a short `README.md` explaining the concept.
 
 > 💡 Goal: Build strong ML fundamentals through consistent, hands-on practice — one topic at a time.
 
@@ -23,18 +23,13 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 
 ## ✅ Learning Progress Tracker
 
-> Check items off as you complete them — GitHub renders these as clickable checkboxes!
+> Check items off as you complete them - GitHub renders these as clickable checkboxes!
 
 - [ ] 01. Data Preprocessing
-- [ ] 02. Feature Engineering
-- [ ] 03. Statistics for ML
-- [ ] 04. Probability for ML
-- [x] 05. Linear Algebra for ML
-- [ ] 06. Supervised Learning
-- [ ] 07. Unsupervised Learning
-- [ ] 08. Model Evaluation
-- [ ] 09. Hyperparameter Tuning
-- [ ] 10. End-to-End Projects
+- [ ] 02. Supervised Learning
+- [ ] 03. Unsupervised Learning
+- [ ] 04. Model Evaluation & Hyperparameter Tuning
+- [ ] 05. End-to-End Projects
 
 ---
 
@@ -44,15 +39,10 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 <summary><b>Click to expand full contents</b></summary>
 
 - [01. Data Preprocessing](#01-data-preprocessing)
-- [02. Feature Engineering](#02-feature-engineering)
-- [03. Statistics for ML](#03-statistics-for-ml)
-- [04. Probability for ML](#04-probability-for-ml)
-- [05. Linear Algebra for ML](#05-linear-algebra-for-ml)
-- [06. Supervised Learning](#06-supervised-learning)
-- [07. Unsupervised Learning](#07-unsupervised-learning)
-- [08. Model Evaluation](#08-model-evaluation)
-- [09. Hyperparameter Tuning](#09-hyperparameter-tuning)
-- [10. End-to-End Projects](#10-end-to-end-projects)
+- [02. Supervised Learning](#02-supervised-learning)
+- [03. Unsupervised Learning](#03-unsupervised-learning)
+- [04. Model Evaluation & Hyperparameter Tuning](#04-model-evaluation--hyperparameter-tuning)
+- [05. End-to-End Projects](#05-end-to-end-projects)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [🚀 Getting Started](#-getting-started)
 - [🤝 Contributing](#-contributing)
@@ -65,20 +55,20 @@ This repository is my personal **Machine Learning knowledge base** — a growing
 ## 01. Data Preprocessing
 
 <details>
-<summary><b>📁 Click to expand — Cleaning and preparing raw data for modeling</b></summary>
+<summary><b>📁 Click to expand - Cleaning and preparing raw data for modeling</b></summary>
 
 <br>
 
 Covers the essential first step of any ML pipeline: turning messy, real-world data into a clean dataset ready for analysis.
 
-- [x] **Missing Values** — Techniques to detect and handle null/missing entries (mean/median/mode imputation, dropping, interpolation).
-- [ ] **Duplicate Data** — Identifying and removing duplicate records to avoid data leakage and bias.
-- [ ] **Handling Outliers** — Detecting anomalies using IQR, Z-score, and visual methods, and deciding how to treat them.
-- [ ] **Encoding Categorical Data** — Converting categorical variables using One-Hot, Label, and Ordinal encoding.
-- [ ] **Feature Scaling** — Standardization and Normalization to bring features onto a comparable scale.
-- [ ] **Train Test Split** — Properly splitting data to evaluate model generalization.
-- [ ] **Imbalanced Data (SMOTE)** — Balancing skewed class distributions using oversampling techniques.
-- [ ] **Data Transformation** — Log, power, and other transformations to fix skewed distributions.
+- [x] **Missing Values** - Techniques to detect and handle null/missing entries (mean/median/mode imputation, dropping, interpolation).
+- [ ] **Duplicate Data** - Identifying and removing duplicate records to avoid data leakage and bias.
+- [ ] **Handling Outliers** - Detecting anomalies using IQR, Z-score, and visual methods, and deciding how to treat them.
+- [ ] **Encoding Categorical Data** - Converting categorical variables using One-Hot, Label, and Ordinal encoding.
+- [ ] **Feature Scaling** - Standardization and Normalization to bring features onto a comparable scale.
+- [ ] **Train Test Split** - Properly splitting data to evaluate model generalization.
+- [ ] **Imbalanced Data (SMOTE)** - Balancing skewed class distributions using oversampling techniques.
+- [ ] **Data Transformation** - Log, power, and other transformations to fix skewed distributions.
 
 📂 `01_Data_Preprocessing/`
 
@@ -86,127 +76,14 @@ Covers the essential first step of any ML pipeline: turning messy, real-world da
 
 ---
 
-## 02. Feature Engineering
+## 02. Supervised Learning
 
 <details>
-<summary><b>📁 Click to expand — Crafting better features to boost model performance</b></summary>
+<summary><b>📁 Click to expand - Learning from labeled data</b></summary>
 
 <br>
 
-The art of transforming raw variables into meaningful inputs that help models learn better.
-
-- [ ] **Feature Selection** — Choosing the most relevant features using filter, wrapper, and embedded methods.
-- [ ] **Feature Extraction** — Deriving new features from existing raw data.
-- [ ] **PCA** — Reducing dimensionality while preserving variance.
-- [ ] **LDA** — Supervised dimensionality reduction for class separability.
-- [ ] **Polynomial Features** — Capturing non-linear relationships via feature expansion.
-- [ ] **Date/Time Features** — Extracting day, month, season, and cyclic patterns from timestamps.
-- [ ] **Text Features** — Converting text into numerical features (TF-IDF, Bag of Words).
-- [ ] **Feature Creation** — Domain-driven creation of new, informative features.
-- [ ] **Dimensionality Reduction** — Overview of techniques to reduce feature space efficiently.
-
-📂 `02_Feature_Engineering/`
-
-</details>
-
----
-
-## 03. Statistics for ML
-
-<details>
-<summary><b>📁 Click to expand — The statistical backbone behind every ML algorithm</b></summary>
-
-<br>
-
-Statistical concepts required to understand model behavior, data distributions, and hypothesis-driven decisions.
-
-- [ ] **Mean, Median, Mode** — Measures of central tendency.
-- [ ] **Variance** — Spread of data around the mean.
-- [ ] **Standard Deviation** — Measuring data dispersion.
-- [ ] **Covariance** — Relationship direction between two variables.
-- [ ] **Correlation** — Strength and direction of linear relationships.
-- [ ] **Skewness** — Asymmetry in data distribution.
-- [ ] **Kurtosis** — Peakedness/tailedness of a distribution.
-- [ ] **Quartiles & IQR** — Data spread and outlier boundaries.
-- [ ] **Confidence Interval** — Estimating population parameters with certainty ranges.
-- [ ] **Hypothesis Testing** — Statistical validation of assumptions.
-- [ ] **p-Value** — Significance testing in decision-making.
-- [ ] **Type I & Type II Error** — Understanding false positives/negatives.
-- [ ] **A/B Testing** — Comparing two variants to measure impact.
-
-📂 `03_Statistics_for_ML/`
-
-</details>
-
----
-
-## 04. Probability for ML
-
-<details>
-<summary><b>📁 Click to expand — Understanding uncertainty and randomness in data</b></summary>
-
-<br>
-
-Probability theory that powers Naive Bayes, generative models, and uncertainty estimation.
-
-- [ ] **Probability Basics** — Foundational rules and axioms.
-- [ ] **Conditional Probability** — Probability of an event given another has occurred.
-- [ ] **Bayes' Theorem** — Updating beliefs using new evidence.
-- [ ] **Random Variables** — Discrete vs continuous variables.
-- [ ] **PMF / PDF / CDF** — Probability functions for distributions.
-- [ ] **Bernoulli Distribution** — Binary outcome modeling.
-- [ ] **Binomial Distribution** — Repeated binary trials.
-- [ ] **Poisson Distribution** — Modeling rare event occurrences.
-- [ ] **Uniform Distribution** — Equal probability outcomes.
-- [ ] **Normal Distribution** — The bell curve and its significance.
-- [ ] **Exponential Distribution** — Modeling time between events.
-- [ ] **Central Limit Theorem** — Why sample means approximate normality.
-
-📂 `04_Probability_for_ML/`
-
-</details>
-
----
-
-## 05. Linear Algebra for ML
-
-<details>
-<summary><b>📁 Click to expand — The mathematical language of machine learning</b></summary>
-
-<br>
-
-Core linear algebra concepts that power everything from neural networks to PCA.
-
-- [x] **Scalars** — Single numerical values.
-- [x] **Vectors** — Ordered arrays representing data points.
-- [x] **Matrices** — 2D data structures for transformations.
-- [x] **Matrix Multiplication** — Combining matrices for transformations.
-- [x] **Dot Product** — Measuring vector similarity/projection.
-- [x] **Cross Product** — Vector operations in 3D space.
-- [x] **Transpose** — Flipping rows and columns.
-- [x] **Determinant** — Scaling factor of a transformation.
-- [x] **Rank** — Number of independent dimensions.
-- [x] **Inverse** — Reversing a matrix transformation.
-- [x] **Eigenvalues** — Scalars indicating transformation stretch.
-- [x] **Eigenvectors** — Directions unchanged by a transformation.
-- [x] **Norms** — Measuring vector magnitude/length.
-- [x] **Orthogonality** — Perpendicularity between vectors.
-- [x] **Singular Value Decomposition** — Factorizing matrices for dimensionality reduction.
-
-📂 `05_Linear_Algebra_for_ML/`
-
-</details>
-
----
-
-## 06. Supervised Learning
-
-<details>
-<summary><b>📁 Click to expand — Learning from labeled data</b></summary>
-
-<br>
-
-Algorithms that learn a mapping from inputs to known outputs — the most common type of ML.
+Algorithms that learn a mapping from inputs to known outputs - the most common type of ML.
 
 ### 📈 Regression
 - [x] Linear Regression
@@ -236,16 +113,16 @@ Algorithms that learn a mapping from inputs to known outputs — the most common
 - [ ] CatBoost
 - [ ] Extra Trees
 
-📂 `06_Supervised_Learning/`
+📂 `02_Supervised_Learning/`
 
 </details>
 
 ---
 
-## 07. Unsupervised Learning
+## 03. Unsupervised Learning
 
 <details>
-<summary><b>📁 Click to expand — Finding hidden patterns in unlabeled data</b></summary>
+<summary><b>📁 Click to expand - Finding hidden patterns in unlabeled data</b></summary>
 
 <br>
 
@@ -264,21 +141,22 @@ Techniques to discover structure, clusters, and patterns without predefined labe
 - [ ] **Local Outlier Factor** — Density-based anomaly detection.
 - [ ] **One-Class SVM** — Boundary-based anomaly detection.
 
-📂 `07_Unsupervised_Learning/`
+📂 `03_Unsupervised_Learning/`
 
 </details>
 
 ---
 
-## 08. Model Evaluation
+## 04. Model Evaluation & Hyperparameter Tuning
 
 <details>
-<summary><b>📁 Click to expand — Measuring how good your model really is</b></summary>
+<summary><b>📁 Click to expand - Measuring model performance and optimizing it for peak results</b></summary>
 
 <br>
 
-Metrics and techniques to validate, compare, and trust model performance.
+Metrics to validate, compare, and trust model performance — paired with techniques to systematically search for the best model configuration.
 
+### 📊 Model Evaluation
 - [ ] **Regression Metrics** — MAE, MSE, RMSE, R².
 - [ ] **Classification Metrics** — Accuracy, Precision, Recall, F1-score.
 - [ ] **Confusion Matrix** — Visualizing prediction outcomes.
@@ -288,37 +166,23 @@ Metrics and techniques to validate, compare, and trust model performance.
 - [ ] **Bias-Variance Tradeoff** — Understanding underfitting vs overfitting.
 - [ ] **Learning Curve** — Diagnosing model performance over data size.
 
-📂 `08_Model_Evaluation/`
-
-</details>
-
----
-
-## 09. Hyperparameter Tuning
-
-<details>
-<summary><b>📁 Click to expand — Optimizing models for peak performance</b></summary>
-
-<br>
-
-Techniques to systematically search for the best model configuration.
-
+### ⚙️ Hyperparameter Tuning
 - [ ] **GridSearchCV** — Exhaustive parameter search.
 - [ ] **RandomizedSearchCV** — Randomized, faster parameter search.
 - [ ] **Bayesian Optimization** — Probabilistic, informed search.
 - [ ] **Optuna** — Efficient automated hyperparameter optimization.
 - [ ] **Early Stopping** — Preventing overfitting during training.
 
-📂 `09_Hyperparameter_Tuning/`
+📂 `04_Model_Evaluation_and_Hyperparameter_Tuning/`
 
 </details>
 
 ---
 
-## 10. End-to-End Projects
+## 05. End-to-End Projects
 
 <details>
-<summary><b>📁 Click to expand — Real-world projects combining everything learned</b></summary>
+<summary><b>📁 Click to expand - Real-world projects combining everything learned</b></summary>
 
 <br>
 
@@ -335,7 +199,7 @@ Complete ML pipelines — from raw data to final predictions — applying concep
 
 Each project includes: `notebook.ipynb`, `dataset.csv`, `output.png`, and `README.md`.
 
-📂 `10_End_to_End_Projects/`
+📂 `05_End_to_End_Projects/`
 
 </details>
 
@@ -415,7 +279,7 @@ This is primarily a personal learning repository, but suggestions and correction
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -423,6 +287,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ### ⭐ If this repository helps your ML journey, consider giving it a star!
 
-**Made with ☕ and curiosity — one notebook at a time.**
+**Made with ☕ and curiosity - one notebook at a time.**
 
 </div>
