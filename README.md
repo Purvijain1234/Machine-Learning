@@ -1,9 +1,8 @@
 <div align="center">
-
+  
 # 🤖 Machine Learning - My Learning Journey
-
-**A structured, hands-on repository documenting my journey through Machine Learning — from data preprocessing to end-to-end deployed projects.**
-
+A structured, hands-on repository documenting my journey through Machine Learning - from data preprocessing to end-to-end deployed projects.
+  
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
