@@ -94,14 +94,14 @@ Algorithms that learn a mapping from inputs to known outputs - the most common t
 - [ ] Decision Tree Regression
 - [ ] Random Forest Regression
 - [ ] Support Vector Regression
-- [ ] KNN Regression
+- [x] KNN Regression
 - [ ] Gradient Boosting
 - [ ] AdaBoost
 - [ ] XGBoost
 
 ### 🏷️ Classification
 - [x] Logistic Regression
-- [ ] KNN
+- [x] KNN
 - [ ] Naive Bayes
 - [ ] Decision Tree
 - [ ] Random Forest
