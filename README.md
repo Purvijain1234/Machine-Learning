@@ -81,7 +81,7 @@ Algorithms that learn a mapping from inputs to known outputs - the most common t
 ### 🏷️ Classification
 - [x] Logistic Regression
 - [x] KNN
-- [ ] Naive Bayes
+- [x] Naive Bayes
 - [ ] Decision Tree
 - [ ] Random Forest
 - [ ] SVM
