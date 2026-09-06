@@ -117,11 +117,9 @@ Techniques to discover structure, clusters, and patterns without predefined labe
 Metrics to validate, compare, and trust model performance - paired with techniques to systematically search for the best model configuration.
 
 ### 📊 Model Evaluation
-- [ ] **Regression Metrics** - MAE, MSE, RMSE, R².
-- [ ] **Classification Metrics** - Accuracy, Precision, Recall, F1-score.
-- [ ] **Confusion Matrix** - Visualizing prediction outcomes.
+- [x] **Regression Metrics** - MAE, MSE, RMSE, R².
+- [ ] **Classification Metrics** - Accuracy, Precision, Recall, F1-score, **Confusion Matrix**.
 - [ ] **ROC Curve** - True vs false positive rate trade-off.
-- [ ] **Precision-Recall Curve** - Performance under class imbalance.
 - [ ] **Cross Validation** - Robust performance estimation.
 - [ ] **Bias-Variance Tradeoff** - Understanding underfitting vs overfitting.
 - [ ] **Learning Curve** - Diagnosing model performance over data size.
