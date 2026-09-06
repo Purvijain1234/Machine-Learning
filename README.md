@@ -142,11 +142,11 @@ Metrics to validate, compare, and trust model performance - paired with techniqu
 Complete ML pipelines - from raw data to final predictions - applying concepts from all sections above.
 
 - [ ] **House Price Prediction** - Regression on housing data.
-- [ ] **Iris Classification** - Classification of Iris Flower Species
+- [x] **Iris Classification** - Classification of Iris Flower Species
 - [ ] **Customer Churn Prediction** - Classification for retention analysis.
 - [ ] **Heart Disease Prediction** - Medical diagnosis classification.
 - [ ] **Loan Prediction** - Predicting loan approval outcomes.
-- [ ] **Spam Detection** - Text classification for spam filtering.
+- [x] **Spam Detection** - Text classification for spam filtering.
 - [ ] **Movie Recommendation** - Recommendation system basics.
 - [ ] **Sales Prediction** - Time-aware regression forecasting.
 - [ ] **Credit Card Fraud Detection** - Anomaly/classification on imbalanced data.
