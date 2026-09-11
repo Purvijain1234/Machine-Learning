@@ -85,9 +85,6 @@ Algorithms that learn a mapping from inputs to known outputs - the most common t
 - [ ] Decision Tree
 - [ ] Random Forest
 - [ ] SVM
-- [ ] Gradient Boosting
-- [ ] AdaBoost
-- [ ] XGBoost
 
 📂 `02_Supervised_Learning/`
 
@@ -145,6 +142,7 @@ Complete ML pipelines - from raw data to final predictions - applying concepts f
 - [ ] **Heart Disease Prediction** - Medical diagnosis classification.
 - [ ] **Loan Prediction** - Predicting loan approval outcomes.
 - [x] **Spam Detection** - Text classification for spam filtering.
+- [x] **Fake News Detection** - Detecting News as Fake or Real
 - [ ] **Movie Recommendation** - Recommendation system basics.
 - [ ] **Sales Prediction** - Time-aware regression forecasting.
 - [ ] **Credit Card Fraud Detection** - Anomaly/classification on imbalanced data.
