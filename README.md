@@ -143,6 +143,7 @@ Complete ML pipelines - from raw data to final predictions - applying concepts f
 - [ ] **Loan Prediction** - Predicting loan approval outcomes.
 - [x] **Spam Detection** - Text classification for spam filtering.
 - [x] **Fake News Detection** - Detecting News as Fake or Real
+- [x] **Sentiment Analysis on Product Review** - Predicting Sentiment of user by their product review 
 - [ ] **Movie Recommendation** - Recommendation system basics.
 - [ ] **Sales Prediction** - Time-aware regression forecasting.
 - [ ] **Credit Card Fraud Detection** - Anomaly/classification on imbalanced data.
