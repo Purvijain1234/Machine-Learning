@@ -70,7 +70,7 @@ Algorithms that learn a mapping from inputs to known outputs - the most common t
 
 ### 📈 Regression
 - [x] Linear Regression
-- [ ] Polynomial Regression
+- [x] Polynomial Regression
 - [ ] Ridge Regression
 - [ ] Lasso Regression
 - [ ] ElasticNet
